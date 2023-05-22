@@ -23,11 +23,9 @@ public class BankAccount implements IValuable{
         return balance;
     }
     public void withdraw(double amount){
-        amount = 50;
         balance -= amount;
     }
     public void deposit(double amount){
-        amount = 100;
         balance += amount;
     }
 
